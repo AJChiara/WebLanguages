@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <!--shows enter you name then when you type in it-->
+        <input id="name-input" type="text" placeholder="Enter your name" />
+        <!--creates new button-->
+        <button id="my-button">Click Me</button>
+
+<script>
+// saves the first input to button
+  var myButton = document.querySelector('#my-button');
+//saves first input to name bar
+  var nameInput = document.querySelector('#name-input');
+//tracks when button is clicked
+  myButton.addEventListener('click', function () {
+    // if something is inputed run code below
+    if (nameInput.value !== '') {
+    //output hello + input at top of screen
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
+    </body>
+</html>

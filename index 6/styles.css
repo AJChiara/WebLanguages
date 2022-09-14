@@ -1,0 +1,11 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+#main-header {
+    text-align: center;
+  }
+  .content {
+    margin-bottom: 100px;
+  }
